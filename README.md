@@ -1,5 +1,7 @@
 # IBFM: Invariant-Based Fusion Module
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23172764.svg)](https://doi.org/10.5281/zenodo.23172764)
+
 PyTorch implementation of the Invariant-Based Fusion Module (IBFM) from the paper:
 
 **Invariant-Based Channel Attention for Robust Visible-Infrared Fusion Under Sensor Degradation**
@@ -85,6 +87,9 @@ a learnable skip connection weight and normalisation of the invariants. They are
 In Eq. (29) of the paper, $X_{skip}$ should read $X_{agg}$ (as shown in Fig. 1b).
 
 ## Citation
+
+If you use this code, please cite the paper. The code itself is archived on Zenodo,
+[doi:10.5281/zenodo.23172764](https://doi.org/10.5281/zenodo.23172764).
 
 ```bibtex
 @article{palapanidis2026ibfm,
