@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "IBFM: Invariant-Based Fusion Module"
+type: software
+authors:
+  - family-names: Palapanidis
+    given-names: Konstantinos
+    orcid: "https://orcid.org/0000-0002-3656-5607"
+    affiliation: "Information Technologies Institute (ITI), Centre for Research and Technology Hellas (CERTH)"
+repository-code: "https://github.com/kpalapan/IBFM"
+license: Apache-2.0
+keywords:
+  - channel attention
+  - moment invariants
+  - visible-infrared fusion
+  - sensor degradation
+  - PyTorch
+preferred-citation:
+  type: article
+  title: "Invariant-Based Channel Attention for Robust Visible-Infrared Fusion Under Sensor Degradation"
+  authors:
+    - family-names: Palapanidis
+      given-names: Konstantinos
+      orcid: "https://orcid.org/0000-0002-3656-5607"
+    - family-names: Tsikrika
+      given-names: Theodora
+    - family-names: Ioannidis
+      given-names: Konstantinos
+    - family-names: Vrochidis
+      given-names: Stefanos
+    - family-names: Kompatsiaris
+      given-names: Ioannis
+  journal: "IEEE Access"
+  volume: 14
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3706896"

@@ -1,0 +1,28 @@
+{
+  "title": "IBFM: Invariant-Based Fusion Module",
+  "upload_type": "software",
+  "description": "<p>PyTorch implementation of the Invariant-Based Fusion Module (IBFM), a channel attention module for visible-infrared fusion that describes the feature map of each channel with a vector of moment invariants (statistical, Hu or Zernike).</p><p>Code of the paper: K. Palapanidis, T. Tsikrika, K. Ioannidis, S. Vrochidis and I. Kompatsiaris, \"Invariant-Based Channel Attention for Robust Visible-Infrared Fusion Under Sensor Degradation\", IEEE Access, vol. 14, 2026, doi: 10.1109/ACCESS.2026.3706896.</p>",
+  "creators": [
+    {
+      "name": "Palapanidis, Konstantinos",
+      "orcid": "0000-0002-3656-5607",
+      "affiliation": "Information Technologies Institute (ITI), Centre for Research and Technology Hellas (CERTH)"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "channel attention",
+    "moment invariants",
+    "visible-infrared fusion",
+    "sensor degradation",
+    "multilabel classification",
+    "PyTorch"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/ACCESS.2026.3706896",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
+}
