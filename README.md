@@ -66,6 +66,16 @@ invariant_type='hu',          invariant_params={'moments_to_compute': [1, 2, 3, 
 If `invariant_type` and `attention_type` are omitted, the block performs only the aggregation
 (attention-free baselines of the ablation study).
 
+## Demo
+
+```
+python demo.py
+```
+
+The demo builds the IBFM with the settings of the paper for the Tri-, Bi- and Uni-Branch inputs and the three
+invariant types, passes random non-negative feature maps through it, and checks the output shapes and the
+gradients. The summary is printed and saved to `results/demo_output.txt`.
+
 ## Contents of `nn_fusion.py`
 
 | Class | Description |
