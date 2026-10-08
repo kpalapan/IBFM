@@ -1,6 +1,7 @@
 # IBFM: Invariant-Based Fusion Module
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23172764.svg)](https://doi.org/10.5281/zenodo.23172764)
+[![Code Ocean](https://img.shields.io/badge/Code%20Ocean-10.24433%2FCO.6622334.v1-blue)](https://doi.org/10.24433/CO.6622334.v1)
 
 PyTorch implementation of the Invariant-Based Fusion Module (IBFM) from the paper:
 
@@ -75,6 +76,8 @@ python demo.py
 The demo builds the IBFM with the settings of the paper for the Tri-, Bi- and Uni-Branch inputs and the three
 invariant types, passes random non-negative feature maps through it, and checks the output shapes and the
 gradients. The summary is printed and saved to `results/demo_output.txt`.
+
+The demo can also be run online on Code Ocean: [doi:10.24433/CO.6622334.v1](https://doi.org/10.24433/CO.6622334.v1).
 
 ## Contents of `nn_fusion.py`
 
